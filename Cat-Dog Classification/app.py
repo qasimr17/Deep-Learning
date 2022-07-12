@@ -21,9 +21,6 @@ def make_prediction(model, image):
     pred = inference.predict(model, image)
     return pred 
 
-def show_image(image):
-    pass
-
 def main():
     model_resnet18 = get_model()
     st.title("Cat-Dog Image Classification")
